@@ -1,5 +1,6 @@
 require("express-async-errors");
 const express = require("express");
+const cors = require("cors");
 const products = require("./routes/products");
 const activities = require("./routes/activities");
 const users = require("./routes/users");
@@ -10,13 +11,14 @@ const Joi = require("joi");
 Joi.objectId = require("joi-objectid")(Joi);
 
 const app = express();
+app.use(cors());
 app.use(express.json());
 app.use("/SportsStore/api/users", users);
 app.use("/SportsStore/api/auth", auth);
 app.use("/SportsStore/api/products", products);
 app.use("/SportsStore/api/activities", activities);
 app.use(express.static("public"));
-app.use(error);
+//app.use(error);
 
 mongoose
   .connect("mongodb://localhost/sports-store")
