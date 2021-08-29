@@ -1,3 +1,3 @@
 module.exports = (err, req, res, next) => {
-  res.status(500).send("something failed");
+  res.status(500).send("server failure");
 };
