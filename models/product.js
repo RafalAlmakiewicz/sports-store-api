@@ -25,7 +25,6 @@ const Product = mongoose.model(
     },
     description: {
       type: String,
-      required: true,
       maxlength: 1000,
     },
   })
@@ -35,7 +34,7 @@ const validate = (product) => {
   const schema = Joi.object({
     name: Joi.string().max(200).required(),
     price: Joi.number().required(),
-    stock: Joi.string().min(0).integer().required(),
+    stock: Joi.number().min(0).integer().required(),
     activity: Joi.objectId().required(),
     description: Joi.string().max(1000),
   });

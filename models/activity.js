@@ -7,14 +7,16 @@ const Activity = mongoose.model(
     name: {
       type: String,
       required: true,
+      minlength: 3,
       maxlength: 100,
+      unique: true,
     },
   })
 );
 
 const validate = (activity) => {
   const schema = Joi.object({
-    name: Joi.string().max(100).required(),
+    name: Joi.string().min(3).max(100).required(),
   });
   return schema.validate(activity);
 };

@@ -19,7 +19,7 @@ router.post("/", async (req, res) => {
     password: hashed,
   });
   await user.save();
-  const token = jwt.sign({ _id: user._id }, "privateKey");
+  const token = jwt.sign({ _id: user._id }, "jwtPrivateKey");
   res.header("auth-token", token).send({ login: user.login });
 });
 
