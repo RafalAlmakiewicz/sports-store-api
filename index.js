@@ -9,6 +9,7 @@ const error = require("./middleware/error");
 const mongoose = require("mongoose");
 const Joi = require("joi");
 Joi.objectId = require("joi-objectid")(Joi);
+const seed = require("./routes/seed");
 
 const app = express();
 app.use(cors());
@@ -17,6 +18,7 @@ app.use("/SportsStore/api/users", users);
 app.use("/SportsStore/api/auth", auth);
 app.use("/SportsStore/api/products", products);
 app.use("/SportsStore/api/activities", activities);
+app.use("/SportsStore/api/seed", seed);
 app.use(express.static("public"));
 //app.use(error);
 
