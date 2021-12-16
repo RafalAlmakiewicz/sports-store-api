@@ -25,7 +25,7 @@ const Product = mongoose.model(
     },
     description: {
       type: String,
-      maxlength: 1000,
+      maxlength: 2000,
     },
   })
 );
@@ -36,7 +36,7 @@ const validate = (product) => {
     price: Joi.number().required(),
     stock: Joi.number().min(0).integer().required(),
     activity: Joi.objectId().required(),
-    description: Joi.string().max(1000),
+    description: Joi.string().max(2000),
   });
   return schema.validate(product);
 };

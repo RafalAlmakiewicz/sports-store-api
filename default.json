@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Golf",
+    "products": [
+      {
+        "name": "golf ball",
+        "price": 25,
+        "stock": 98,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel finibus sem, maximus pretium nibh. Nunc sit amet auctor turpis, non tincidunt leo. Cras quis magna lacinia, consequat mi eget, ornare quam. Quisque aliquam, ligula sit amet scelerisque mollis, sem augue sodales augue, finibus pulvinar augue dui quis turpis. Vestibulum elementum urna at magna elementum, nec scelerisque magna aliquet. Nulla et sapien nec lacus euismod rutrum. Nunc egestas finibus erat."
+      },
+      {
+        "name": "golf bat",
+        "price": 200,
+        "stock": 5,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel finibus sem, maximus pretium nibh. Nunc sit amet auctor turpis, non tincidunt leo. Cras quis magna lacinia, consequat mi eget, ornare quam. Quisque aliquam, ligula sit amet scelerisque mollis, sem augue sodales augue, finibus pulvinar augue dui quis turpis."
+      }
+    ]
+  },
+  {
+    "name": "Billiard",
+    "products": [
+      {
+        "name": "billiard balls",
+        "price": 60,
+        "stock": 44,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel finibus sem, maximus pretium nibh. Nunc sit amet auctor turpis, non tincidunt leo. Cras quis magna lacinia, consequat mi eget, ornare quam. Quisque aliquam, ligula sit amet scelerisque mollis, sem augue sodales augue, finibus pulvinar augue dui quis turpis. Vestibulum elementum urna at magna elementum, nec scelerisque magna aliquet. Nulla et sapien nec lacus euismod rutrum. Nunc egestas finibus erat."
+      },
+      {
+        "name": "billiard set",
+        "price": 80,
+        "stock": 14,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel finibus sem, maximus pretium nibh. Nunc sit amet auctor turpis, non tincidunt leo. Cras quis magna lacinia, consequat mi eget, ornare quam. Quisque aliquam, ligula sit amet scelerisque mollis, sem augue sodales augue, finibus pulvinar augue dui quis turpis."
+      }
+    ]
+  },
+  {
+    "name": "Football",
+    "products": [
+      {
+        "name": "football ball",
+        "price": 80,
+        "stock": 3,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel finibus sem, maximus pretium nibh. Nunc sit amet auctor turpis, non tincidunt leo. Cras quis magna lacinia, consequat mi eget, ornare quam."
+      }
+    ]
+  },
+  {
+    "name": "Fitness and gym",
+    "products": [
+      {
+        "name": "dumbbells x",
+        "price": 5,
+        "stock": 34,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel finibus sem, maximus pretium nibh."
+      },
+      {
+        "name": "dumbbells y",
+        "price": 55,
+        "stock": 7,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel finibus sem, maximus pretium nibh."
+      },
+      {
+        "name": "dumbbells z",
+        "price": 63,
+        "stock": 17,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel finibus sem, maximus pretium nibh."
+      },
+      {
+        "name": "barbell",
+        "price": 63,
+        "stock": 17,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel finibus sem, maximus pretium nibh."
+      }
+    ]
+  },
+  {
+    "name": "tennis",
+    "products": [
+      {
+        "name": "tennis racket",
+        "price": 110,
+        "stock": 22,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "name": "tennis ball",
+        "price": 8,
+        "stock": 99,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.."
+      }
+    ]
+  },
+  {
+    "name": "Bowling",
+    "products": [
+      {
+        "name": "bowling pins",
+        "price": 100,
+        "stock": 13,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "name": "bowling ball",
+        "price": 115,
+        "stock": 17,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      }
+    ]
+  }
+]
