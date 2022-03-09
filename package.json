@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -18,5 +22,8 @@
     "joi-objectid": "^3.0.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.13.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }

@@ -23,9 +23,9 @@ app.use(express.static("public"));
 //app.use(error);
 
 mongoose
-  .connect("mongodb://localhost/sports-store")
-  .then(() => console.log("connected to mongodb..."))
+  .connect(process.env.MONGO_URI)
+  .then(() => console.log("connected to mongodb"))
   .catch((err) => console.error(err));
 
 const port = process.env.PORT || 3000;
-app.listen(3000, () => console.log(`sports-store on port ${port}...`));
+app.listen(3000, () => console.log(`sports-store on port ${port}`));
