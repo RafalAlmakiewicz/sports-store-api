@@ -28,4 +28,4 @@ mongoose
   .catch((err) => console.error(err));
 
 const port = process.env.PORT || 3000;
-app.listen(3000, () => console.log(`sports-store on port ${port}`));
+app.listen(port, () => console.log(`sports-store on port ${port}`));
