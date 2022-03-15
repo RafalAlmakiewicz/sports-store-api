@@ -1,7 +1,6 @@
 const express = require("express");
 const router = express.Router();
 const { Activity, validate } = require("../models/activity");
-const { ObjectID } = require("mongodb");
 const authorize = require("../middleware/authorize");
 const validateId = require("../middleware/validateId");
 
@@ -45,5 +44,3 @@ router.delete(`/:id`, authorize, validateId, async (req, res) => {
 });
 
 module.exports = router;
-
-//if (!idIsValid(req.params.id)) return res.status(400).send("Invalid id");
