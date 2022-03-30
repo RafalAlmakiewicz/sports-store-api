@@ -2,9 +2,15 @@
 
 Backend services for [Sports-store](https://github.com/RafalAlmakiewicz/sports-store). Created with `Express` and `Mongoose`. `JsonWebToken` was used to implement user accounts.
 
-## Endpoints
+## Hosted on Heroku
 
-### SportsStore/api/[products](https://github.com/RafalAlmakiewicz/sports-store-api/blob/master/routes/products.js)
+List of all products: https://sportify-7.herokuapp.com/sportsstore/api/products
+
+List of all activities: https://sportify-7.herokuapp.com/sportsstore/api/activities
+
+## All Endpoints
+
+### SportsStore/api/products
 
 `GET` &nbsp;
 
@@ -16,7 +22,7 @@ Backend services for [Sports-store](https://github.com/RafalAlmakiewicz/sports-s
 
 `DELETE` `/:id` &nbsp;
 
-### SportsStore/api/[activities](https://github.com/RafalAlmakiewicz/sports-store-api/blob/master/routes/activities.js)
+### SportsStore/api/activities
 
 `GET`
 
@@ -28,18 +34,14 @@ Backend services for [Sports-store](https://github.com/RafalAlmakiewicz/sports-s
 
 `DELETE` `/:id`
 
-### SportsStore/api/[users](https://github.com/RafalAlmakiewicz/sports-store-api/blob/master/routes/users.js)
+### SportsStore/api/users
 
 `POST` &nbsp; register new user
 
-### SportsStore/api/[auth](https://github.com/RafalAlmakiewicz/sports-store-api/blob/master/routes/auth.js)
+### SportsStore/api/auth
 
 `POST` &nbsp; authenticate user
 
-### SportsStore/api/[seed](https://github.com/RafalAlmakiewicz/sports-store-api/blob/master/routes/seed.js)
+### SportsStore/api/seed
 
 `POST` &nbsp; Seed database with default data stored in [default.json](https://github.com/RafalAlmakiewicz/sports-store-api/blob/master/default.json) file.
-
-<br><br>
-
-![api](https://user-images.githubusercontent.com/79459373/146443335-56a130b8-dc8e-4940-9307-d65729c4ff4e.png)
